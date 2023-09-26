@@ -1,0 +1,51 @@
+# ============================================================
+# Ignore OS files.
+# OS files and folders that Git should ignore.
+# ============================================================
+
+# Windows Junk
+$RECYCLE.BIN
+Desktop.ini
+Thumbs.db
+
+# macOS Junk
+.DS_Store
+.Trashes
+
+# Others
+*.env
+*.tmp
+*.bak
+*.log
+*~
+
+
+
+
+
+# ============================================================
+# Ignore build assets.
+# Development files and folders that Git should ignore.
+# ============================================================
+
+# Code Editors
+.idea
+.vscode
+.project
+.settings
+
+# Development Tools
+node_modules
+bower_components
+
+# Dev-Only Packages
+vendor
+!vendor/composer
+!vendor/autoload.php
+!vendor/package-name
+
+# Dev-Only Packages
+third-party
+!third-party/composer
+!third-party/autoload.php
+!third-party/package-name
